@@ -13,7 +13,7 @@
 	<h2>about Servlet : Database</h2>
 	
 	<div id='content'>
-		자료실 표시될 영역
+		자료실 표시될 영역 - 수정테슷흐
 	</div>
 
 	<%@include file="footer.jsp" %>
