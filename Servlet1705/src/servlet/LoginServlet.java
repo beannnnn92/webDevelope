@@ -47,6 +47,8 @@ public class LoginServlet extends HttpServlet {	// 패키지에 있는 servlet�
 			}else{
 				HttpSession session = req.getSession();
 				session.setAttribute("sId", null);
+				pw.println("<script language = 'javaScript'>alert('잘못 입력 되었습니다.')</script>");
+				pw.close();
 			}
 			
 			// web.xml이 dispatcher file
