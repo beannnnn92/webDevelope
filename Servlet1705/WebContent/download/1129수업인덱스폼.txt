@@ -1,0 +1,22 @@
+onclick='function(${i-1}, this)'
+//this는 아이콘 상태 변환을 위해 
+
+
+function(idx, img){
+var ff=d.forms[idx];
+
+img.src='./qwf.png';
+ff.content.readOnly=false;
+ff.content.focus();
+
+}
+
+forEach var='i' begin=$dao.satatPage end=#{dao.endpage>
+input type='button'.............................
+</forEa>
+
+수정 버튼 누르면 암호 입력 win.open 해야징..
+
+//방명록 list.jsp
+
+<c:set var='idx' value='0'/> ㅇㅇ
