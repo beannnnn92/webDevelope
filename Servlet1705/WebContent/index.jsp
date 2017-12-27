@@ -5,18 +5,29 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <link rel="stylesheet" type="text/css" href="./css/index.css">
+<script type="text/javascript" src="http://code.jquery.com/jquery-3.2.1.js"></script>
 <title>INDEX: 채송화</title>
 </head>
 <body>
+<% 
+request.setCharacterEncoding("utf-8");
+String inc = "./board/list.jsp";
+
+if(request.getParameter("inc")!=null) {
+	inc = request.getParameter("inc");
+}
+%>
 <div id='index'>
 	<%@include file="header.jsp" %>
-	<h2>about Servlet : Database</h2>
 	
 	<div id='content'>
-		자료실 표시될 영역 - 수정테슷흐
+		<h2 id='h2id'>S e r v l e t #</h2>
+		<jsp:include page="<%=inc %>" />
 	</div>
-
-	<%@include file="footer.jsp" %>
+	<div id='footer'>
+		<%@include file="footer.jsp" %>
+	</div>
+	
 </div>
 </body>
 </html>

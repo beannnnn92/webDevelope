@@ -10,7 +10,7 @@
 <body>
 <%
 session.setAttribute("sId", null);
-response.sendRedirect("../index.jsp");
+response.sendRedirect("/Servlet1705/index.jsp");
 %>
 <div id='logout'>
 

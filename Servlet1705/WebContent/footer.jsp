@@ -7,8 +7,6 @@
 <title>footer</title>
 </head>
 <body>
-<div id='footer'>
-	<h3>footer area</h3>
-</div>
+	<address>Java / HTML5 / CSS / JavaScript</address>
 </body>
 </html>
